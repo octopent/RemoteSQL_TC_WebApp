@@ -1,7 +1,7 @@
 node{
    try{
 	stage('SCM Checkout'){
-     git 'https://github.com/octopent/girish'
+     git 'https://github.com/octopent/RemoteSQL_TC_WebApp'
    }
    stage('Package Compilation'){
       def mvnHome =  tool name: 'jenkins_maven', type: 'maven'   
